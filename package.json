@@ -4,7 +4,7 @@
   "description": "my website",
   "main": "index.js",
   "scripts": {
-    "test": "index.js"
+    "start": "node index.js"
   },
   "author": "micah price",
   "license": "ISC",
