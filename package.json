@@ -1,0 +1,14 @@
+{
+  "name": "micah",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "micah price",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
