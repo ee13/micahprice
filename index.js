@@ -11,6 +11,6 @@ app.use('/js', express.static(__dirname + '/js'));
 app.use('/less', express.static(__dirname + '/less'));
 app.use('/lib', express.static(__dirname + '/lib'));
 
-app.listen(3000);
+app.listen(process.env.PORT ||3000);
 
 console.log("Running on 3000")
